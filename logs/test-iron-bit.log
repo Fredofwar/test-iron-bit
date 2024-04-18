@@ -1,0 +1,49 @@
+2024-04-18T14:26:19.701-06:00  INFO 15492 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Starting TestIronBitApplication using Java 17.0.10 with PID 15492 (C:\workspace\test-iron-bit\target\classes started by Rxgnxrok in C:\workspace\test-iron-bit)
+2024-04-18T14:26:19.703-06:00  INFO 15492 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-18T14:26:21.736-06:00 DEBUG 15492 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-04-18T14:26:22.152-06:00 DEBUG 15492 --- [test-iron-bit] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-18T14:26:22.194-06:00 DEBUG 15492 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-18T14:26:22.226-06:00 DEBUG 15492 --- [test-iron-bit] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-18T14:26:22.363-06:00  INFO 15492 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Started TestIronBitApplication in 3.077 seconds (process running for 3.421)
+2024-04-18T14:26:41.641-06:00  INFO 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-18T14:26:41.641-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-18T14:26:41.642-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-18T14:26:41.642-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-18T14:26:41.642-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3220335d
+2024-04-18T14:26:41.643-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5974fa9d
+2024-04-18T14:26:41.643-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-18T14:26:41.643-06:00  INFO 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-18T14:26:41.650-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/employees/6621755c6d2efc0d71a9abd0", parameters={}
+2024-04-18T14:26:41.661-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ironbit.testironbit.controller.EmployeeController#getEmployee(String, HttpServletRequest)
+2024-04-18T14:26:41.680-06:00  INFO 15492 --- [test-iron-bit] [http-nio-8080-exec-1] c.i.t.controller.EmployeeController      : HEADER > PostmanRuntime/7.37.3
+2024-04-18T14:26:41.818-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-18T14:26:41.825-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EmployeeResponse(id=6621755c6d2efc0d71a9abd0, firstName=Juan, secondName=Pedro, lastName=Martinez, s (truncated)...]
+2024-04-18T14:26:41.840-06:00 DEBUG 15492 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-18T15:30:12.324-06:00  INFO 12644 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Starting TestIronBitApplication using Java 17.0.10 with PID 12644 (C:\workspace\test-iron-bit\target\classes started by Rxgnxrok in C:\workspace\test-iron-bit)
+2024-04-18T15:30:12.326-06:00  INFO 12644 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-18T15:30:14.405-06:00 DEBUG 12644 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-04-18T15:30:14.805-06:00 DEBUG 12644 --- [test-iron-bit] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-18T15:30:14.845-06:00 DEBUG 12644 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-18T15:30:14.883-06:00 DEBUG 12644 --- [test-iron-bit] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-18T15:30:15.018-06:00  INFO 12644 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Started TestIronBitApplication in 3.23 seconds (process running for 3.638)
+2024-04-18T15:30:43.077-06:00  INFO 19344 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Starting TestIronBitApplication using Java 17.0.10 with PID 19344 (C:\workspace\test-iron-bit\target\classes started by Rxgnxrok in C:\workspace\test-iron-bit)
+2024-04-18T15:30:43.080-06:00  INFO 19344 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-18T15:30:45.124-06:00 DEBUG 19344 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-04-18T15:30:45.545-06:00 DEBUG 19344 --- [test-iron-bit] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-18T15:30:45.581-06:00 DEBUG 19344 --- [test-iron-bit] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-18T15:30:45.615-06:00 DEBUG 19344 --- [test-iron-bit] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-18T15:30:45.745-06:00  INFO 19344 --- [test-iron-bit] [main] c.i.testironbit.TestIronBitApplication   : Started TestIronBitApplication in 3.096 seconds (process running for 3.452)
+2024-04-18T15:31:03.809-06:00  INFO 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-18T15:31:03.810-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-18T15:31:03.810-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-18T15:31:03.810-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-18T15:31:03.811-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5a3f8d4a
+2024-04-18T15:31:03.811-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5985a260
+2024-04-18T15:31:03.811-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-18T15:31:03.812-06:00  INFO 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-18T15:31:03.819-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/employees", parameters={}
+2024-04-18T15:31:03.829-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ironbit.testironbit.controller.EmployeeController#getEmployees(HttpServletRequest)
+2024-04-18T15:31:03.843-06:00  INFO 19344 --- [test-iron-bit] [http-nio-8080-exec-1] c.i.t.controller.EmployeeController      : HEADER > */*
+2024-04-18T15:31:03.942-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-18T15:31:03.948-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[EmployeeResponse(id=662174ee6d2efc0d71a9abcf, firstName=Jhon, secondName=Snow, lastName=Teller, sec (truncated)...]
+2024-04-18T15:31:03.997-06:00 DEBUG 19344 --- [test-iron-bit] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
